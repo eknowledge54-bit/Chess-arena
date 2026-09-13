@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Chess Arena",
+    "slug": "chess-arena",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070a0f"
+    },
+    "android": {
+      "package": "com.chessarena.app",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#070a0f"
+      }
+    },
+    "plugins": [
+      "react-native-webview"
+    ]
+  }
+}
